@@ -1,0 +1,31 @@
+{
+    "name": "joyn/magento2-joyn",
+    "description":"With the Joyn for Prestashop plug-in, your customers can easily save Joyn points through your webshop.",
+    "require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.1.3|~7.2.0|~7.3.0|~7.4.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "homepage": "https://www.joyn.be/",
+    "support": {
+        "email": "support@joyn.com"
+    },
+    "authors": [
+        {
+            "name": "Joyn",
+            "email": "info@joyn.be",
+            "homepage": "http://www.joyn.be/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Joyn\\JoynBe\\": ""
+        }
+    }
+}
